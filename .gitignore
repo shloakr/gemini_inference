@@ -1,0 +1,10 @@
+# Ignore large files
+Research_Dump/distilbert_finetuned/model.safetensors
+
+# Ignore other unnecessary files
+*.log
+*.tmp
+
+# Ignore environment variables file
+!.env
+*.env

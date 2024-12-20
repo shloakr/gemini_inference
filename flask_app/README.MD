@@ -4,7 +4,7 @@ Happenstance is an intelligent assistant designed to determine whether a given m
 
 ## Features
 
-- **Message Classification**: Determines if a message is a request based on predefined criteria.
+- **Message Classification**: Determines if a message is a request based on predefined criteria. If it is not a request, redirects the user.
 - **LinkedIn-Specific Handling**: Special classification logic for messages mentioning LinkedIn.
 - **Caching with Redis**: Improves performance by caching classification results to avoid redundant API calls.
 
